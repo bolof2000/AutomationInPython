@@ -37,6 +37,8 @@ class Login_Page():
 
         return self.driver.find_element(By.NAME,self.login_button)
 
+
+
      #define functions for every operations on the login page
      # send username
     #send password
@@ -62,6 +64,7 @@ class Login_Page():
         self.sendUsername(email)
         self.sendPassword(password)
         self.clickSubitButton()
+
 
 
 

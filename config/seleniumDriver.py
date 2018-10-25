@@ -32,6 +32,6 @@ class SeleniumDriver():
             print("locator type"+locatorType+ "not correct/supported")
         return False
 
-    
+
 
 
