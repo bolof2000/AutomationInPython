@@ -12,6 +12,7 @@ class Login_Page():
         driver.get("https://learn.letskodeit.com/p/practice")
 
 
+
     #defind the locators for the login page
 
     login_link = "login"
@@ -19,10 +20,12 @@ class Login_Page():
     password_field = "user_password"
     login_button = "commit"
 
+
     #defind methods to return the locator after finding them
 
     def getLoginLink(self):
 
+        
         return self.driver.find_element(By.LINK_TEXT,self.login_link)
 
     def getEmailField(self):

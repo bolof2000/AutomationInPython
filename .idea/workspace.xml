@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e46a5f8-6df2-4107-b1d1-026d7cf319b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/HandleWrapper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/home/LoginPageObjectModel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testApi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TestAutomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TestAutomation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/login_page.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,30 +20,32 @@
     <session id="-867130057">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.45" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="18" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="5579" />
+          <entry key="py" value="8170" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5579" />
+          <entry key="Python" value="8170" />
         </counts>
       </usages-collector>
     </session>
@@ -48,28 +55,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/SelectingRadioButton.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/home/login_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="9">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1540437542247" expanded="true" signature="129:706" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pages/home/login_page.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/home/LoginPageObjectModel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="389">
+              <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <marker date="1540436062288" expanded="true" signature="92:93" ph="..." />
-                <marker date="1540436062288" expanded="true" signature="864:871" ph="..." />
+                <element signature="e#142#185#0" expanded="true" />
+                <marker date="1540703650394" expanded="true" signature="255:256" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,16 +102,20 @@
         <option value="$PROJECT_DIR$/test/zipFunction.py" />
         <option value="$PROJECT_DIR$/config/1-selenium-driver.py" />
         <option value="$PROJECT_DIR$/config/seleniumDriver.py" />
-        <option value="$PROJECT_DIR$/pages/home/login_page.py" />
         <option value="$PROJECT_DIR$/test/SelectingRadioButton.py" />
+        <option value="$PROJECT_DIR$/config/HandleWrapper.py" />
+        <option value="$PROJECT_DIR$/test/testApi.py" />
+        <option value="$PROJECT_DIR$/config/Test2.py" />
+        <option value="$PROJECT_DIR$/pages/home/login_page.py" />
+        <option value="$PROJECT_DIR$/pages/home/LoginPageObjectModel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="841" />
+    <option name="x" value="757" />
     <option name="y" value="23" />
-    <option name="width" value="1625" />
-    <option name="height" value="971" />
+    <option name="width" value="1736" />
+    <option name="height" value="954" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -125,19 +134,7 @@
             </path>
             <path>
               <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestAutomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestAutomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -238,10 +235,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="841" y="23" width="1625" height="971" extended-state="0" />
+    <frame x="290" y="33" width="1736" height="954" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81219906" visible="true" weight="0.3298005" />
-      <window_info id="Structure" order="1" sideWeight="0.18780096" side_tool="true" visible="true" weight="0.3298005" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8063187" visible="true" weight="0.3084548" />
+      <window_info id="Structure" order="1" sideWeight="0.19368131" side_tool="true" visible="true" weight="0.3084548" />
       <window_info id="Favorites" order="2" sideWeight="0.5005688" side_tool="true" weight="0.21446384" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -251,7 +249,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.17861205" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.29124004" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.15545243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32896304" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -281,9 +279,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -298,9 +293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1539915849871" expanded="true" signature="55:56" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -308,13 +300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1540176922135" expanded="true" signature="54:55" ph="..." />
-            <marker date="1540176922135" expanded="true" signature="135:144" ph="..." />
-            <marker date="1540176922135" expanded="true" signature="248:249" ph="..." />
-            <marker date="1540176922135" expanded="true" signature="579:580" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -322,31 +307,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <marker date="1540259718460" expanded="true" signature="14:15" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/home/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1540436062288" expanded="true" signature="92:93" ph="..." />
-            <marker date="1540436062288" expanded="true" signature="864:871" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/SelectingRadioButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/Test2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testApi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/HandleWrapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="40" column="46" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1540437542247" expanded="true" signature="129:706" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/home/LoginPageObjectModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="73" column="8" lean-forward="true" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="8" />
+          <folding>
+            <element signature="e#142#185#0" expanded="true" />
+            <marker date="1540703650394" expanded="true" signature="255:256" ph="..." />
           </folding>
         </state>
       </provider>
