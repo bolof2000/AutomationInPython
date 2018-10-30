@@ -1,59 +1,52 @@
-"""
-This is the page object model for the login page
-every object locators, objects and the functionalities are defined in this class
-
-
-
-"""
-
 from selenium.webdriver.common.by import By
 from selenium import webdriver
 import time
+import selenium
 
 
-class LoginPageModel():
-
+class loginPageObject():
 
     def __init__(self,driver):
-
-        baseurl = "https://learn.letskodeit.com/p/practice0"
 
         self.driver = driver
 
         self.driver = webdriver.Firefox()
-
-        self.driver.get(baseurl)
-        self.driver.maximize_window()
-
-    login_link = "login"
-    email_field = "user_email"
-    password_field = "user_password"
-    login_button = "commit"
+        baseurl = "https://learn.letskodeit.com/p/practice"
+        driver.maximize_window()
+        driver.get(baseurl)
 
 
+        #define variables for all the locators
 
-    #define locators as variable
 
+    loginLink = "Login"
+    usernameLoginBox = "user_email"
+    passwordLoginBox = "user_password"
+    loginButtonLink = "submit"
 
+     #define methods to return the web elements
 
     def getLoginLink(self):
 
-        return self.driver.find_element(By.LINK_TEXT,self.login_link)
+        self.driver.find_element(By.LINK_TEXT,self.loginLink)
 
     def getUsernameBox(self):
 
-        return self.driver.find_element(By.ID,self.email_field)
+        self.driver.find_element(By.ID,self.usernameLoginBox)
 
-    def getPasswordBox(self):
+    def getPasswordLoginBox(self):
+        self.driver.find_element(By.ID,self.passwordLoginBox)
 
-        return self.driver.find_element(By.ID,self.password_field)
+    def getLoginButtonLink(self):
 
-    def getLoginButton(self):
-
-        return self.driver.find_element(By.ID,self.login_button)
+        self.driver.find_element(By.LINK_TEXT,self.loginButtonLink)
 
 
-    # define functions for all operations
+    #define functions for all the operations
+
+    def ClickLoginLink(self):
+
+        self.getLoginLink().click()
 
     def sendUsername(self,email):
 
@@ -61,24 +54,27 @@ class LoginPageModel():
 
     def sendPassword(self,password):
 
-        self.getPasswordBox().send_keys(password)
-
-    def clickLoginLinkButton(self):
-
-        self.getLoginLink().click()
+        self.getPasswordLoginBox().send_keys(password)
 
     def clickLoginButton(self):
 
-        self.getLoginButton().click()
+        self.getLoginButtonLink().click()
 
 
+    def loginTest(self,username,password):
 
-    def login(self,email,password):
-
-        self.clickLoginLinkButton()
         self.clickLoginButton()
-        self.sendUsername("bolofindeolusegun@gmail.com")
-        self.sendPassword("bolofbaba")
+        self.sendUsername()
+        self.sendPassword()
+        self.clickLoginButton()
+
+
+
+
+
+
+
+
 
 
 
